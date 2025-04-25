@@ -20,6 +20,7 @@
 </body>
 
 <?php
+//comment
 if (isset($_POST['submit'])) {
     $tinggi = $_POST['angka'];
     $link = $_POST['link'];
