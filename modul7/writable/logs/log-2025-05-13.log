@@ -1,0 +1,80 @@
+CRITICAL - 2025-05-13 14:34:20 --> ErrorException: Undefined array key "raymond.jpg"
+[Method: GET, Route: profil]
+in APPPATH\Views\profil.php on line 24.
+ 1 APPPATH\Views\profil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "raymond.jpg"', 'C:\\laragon\\www\\CodeIgniter4\\app\\Views\\profil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\CodeIgniter4\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(12): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
+CRITICAL - 2025-05-13 14:34:22 --> ErrorException: Undefined array key "raymond.jpg"
+[Method: GET, Route: profil]
+in APPPATH\Views\profil.php on line 24.
+ 1 APPPATH\Views\profil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "raymond.jpg"', 'C:\\laragon\\www\\CodeIgniter4\\app\\Views\\profil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\CodeIgniter4\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(12): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
+CRITICAL - 2025-05-13 15:03:26 --> Error: Class "BiodataModel" not found
+[Method: GET, Route: profil]
+in APPPATH\Controllers\Profil.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
+CRITICAL - 2025-05-13 15:03:27 --> Error: Class "BiodataModel" not found
+[Method: GET, Route: profil]
+in APPPATH\Controllers\Profil.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
+CRITICAL - 2025-05-13 15:03:28 --> Error: Class "BiodataModel" not found
+[Method: GET, Route: profil]
+in APPPATH\Controllers\Profil.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
+CRITICAL - 2025-05-13 15:03:36 --> Error: Class "BiodataModel" not found
+[Method: GET, Route: profil]
+in APPPATH\Controllers\Profil.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
+CRITICAL - 2025-05-13 15:04:58 --> Error: Class "BiodataModel" not found
+[Method: GET, Route: profil]
+in APPPATH\Controllers\Profil.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Profil->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\CodeIgniter4\\public\\index.php')
